@@ -76,7 +76,11 @@ button{
     padding: 6px;
     padding-left: 36px;
     padding-right: 36px;
+    padding-top: 8px;
+    padding-bottom: 8px;
     border-radius: 8px;
+    flex-shrink: 1;
+    margin: 20px;
 }
 
 .random_info{
@@ -136,13 +140,40 @@ button{
 .blue_box{
     margin-top: 100px;
     margin-bottom: 100px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 200px;
+    margin-right: 200px;
     background-color: #3882F6;
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     padding-left: 120px;
     padding-right: 120px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+
+h3{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.clicking{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+#white_border{
+    border-width: 4px;
+    border-color: #E5E7EB;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 50px;
 }
